@@ -1,5 +1,6 @@
 import tkinter as tk
 import os
+from caro import CaroGame
 
 class GameHub:
     def __init__(self, root):
@@ -26,7 +27,7 @@ class GameHub:
         menubar = tk.Menu(self.root)
         
         game_menu = tk.Menu(menubar, tearoff=0)
-        game_menu.add_command(label="Cờ Caro (Gomoku)", command=lambda: self.show_placeholder("Cờ Caro"))
+        game_menu.add_command(label="Cờ Caro (Gomoku)", command=lambda: self.load_game(CaroGame))
         game_menu.add_command(label="Sudoku", command=lambda: self.show_placeholder("Sudoku"))
         game_menu.add_command(label="Dò mìn (Minesweeper)", command=lambda: self.show_placeholder("Dò Mìn"))
         game_menu.add_command(label="Cờ Othello", command=lambda: self.show_placeholder("Cờ Othello"))
