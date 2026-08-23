@@ -20,14 +20,14 @@ Dự án này được thiết kế theo nguyên tắc Module hóa (OOP), trong 
 
 ## 📂 Cấu trúc dự án
 
-\`\`\`text
+```text
 GameHub_Project/
 │
 ├── main.py        # Ứng dụng trung tâm, quản lý Menu và điều hướng
 ├── caro.py        # Logic và giao diện của game Cờ Caro (Gomoku)
 ├── sudoku.py      # Bộ khung cho game Sudoku (Đang phát triển)
 └── README.md      # Tài liệu giới thiệu dự án
-\`\`\`
+```
 
 ---
 
